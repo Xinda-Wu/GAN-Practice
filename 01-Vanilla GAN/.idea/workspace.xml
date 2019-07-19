@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464b8664-178e-445a-b411-f0b7644f6e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-GCGAN/DCGAN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/.idea/03-WGAN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/WGAN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/processed/test.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/processed/training.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-WGAN/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GAN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01_Vanilla_GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1022">
-              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="1549">
+              <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -52,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
-    <option name="y" value="66" />
+    <option name="x" value="-1285" />
+    <option name="y" value="33" />
     <option name="width" value="1226" />
     <option name="height" value="1352" />
   </component>
@@ -63,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,10 +85,16 @@
               <item name="01-Vanilla GAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="01-Vanilla GAN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="01-Vanilla GAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-Vanilla GAN" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,16 +160,17 @@
       <workItem from="1563364347341" duration="13305000" />
       <workItem from="1563436062921" duration="616000" />
       <workItem from="1563503896706" duration="2835000" />
+      <workItem from="1563541025557" duration="2599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17665000" />
+    <option name="totallyTimeSpent" value="20264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="66" width="1226" height="1352" extended-state="0" />
+    <frame x="-1285" y="33" width="1226" height="1352" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2947635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2998311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01_Vanilla_GAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="1549">
+          <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
