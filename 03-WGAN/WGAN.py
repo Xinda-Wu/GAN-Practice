@@ -21,8 +21,6 @@ import torch
 batch_size = 128
 ngpu = 1                        # Number of GPUs available. Use 0 for CPU mode.
 
-if not os.path.exists('./img'):
-    os.mkdir('./img')
 
 ##################################################### 交互式的参数 set parameters ###################################################
 parser = argparse.ArgumentParser()

@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464b8664-178e-445a-b411-f0b7644f6e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03-WGAN/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/processed/test.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/processed/training.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-WGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-WGAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-WGAN/WGAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03-WGAN/WGAN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-WGAN-GP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-WGAN-GP/WGAN-GP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04-WGAN-GP/WGAN-GP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GAN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,7 +166,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1285" y="33" width="1226" height="1352" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30489865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

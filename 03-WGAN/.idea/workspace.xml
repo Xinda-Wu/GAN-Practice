@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab11b217-4846-4714-b01e-40e59cc314de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/processed/test.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/processed/training.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-WGAN-GP/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-Vanilla GAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Vanilla GAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WGAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/WGAN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-WGAN-GP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-WGAN-GP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-WGAN-GP/WGAN-GP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04-WGAN-GP/WGAN-GP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GAN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WGAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="180" column="30" lean-forward="true" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+            <state relative-caret-position="650">
+              <caret line="188" selection-start-line="188" selection-end-line="190" selection-end-column="61" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -57,8 +64,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="48" />
+    <option name="x" value="-2022" />
+    <option name="y" value="56" />
     <option name="width" value="1602" />
     <option name="height" value="1352" />
   </component>
@@ -77,17 +84,6 @@
             <path>
               <item name="03-WGAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="03-WGAN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03-WGAN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-WGAN" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03-WGAN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-WGAN" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,16 +181,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563541004739</updated>
       <workItem from="1563541006310" duration="4044000" />
-      <workItem from="1563546578491" duration="4316000" />
+      <workItem from="1563546578491" duration="5767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8360000" />
+    <option name="totallyTimeSpent" value="9811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="48" width="1602" height="1352" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2022" y="56" width="1602" height="1352" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21987179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WGAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="180" column="30" lean-forward="true" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+        <state relative-caret-position="650">
+          <caret line="188" selection-start-line="188" selection-end-line="190" selection-end-column="61" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

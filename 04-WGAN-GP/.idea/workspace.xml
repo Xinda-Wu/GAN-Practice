@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28491234-91c2-47f7-ad73-92eb5c55a937" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03-WGAN/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/processed/test.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/processed/training.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-Vanilla GAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Vanilla GAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-GCGAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-WGAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-WGAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-WGAN/WGAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03-WGAN/WGAN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WGAN-GP.py" beforeDir="false" afterPath="$PROJECT_DIR$/WGAN-GP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GAN.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +28,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WGAN-GP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="223">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/torch/optim/adam.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -42,13 +70,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/WGAN-GP.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="46" />
+    <option name="x" value="1069" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1352" />
   </component>
@@ -65,6 +94,11 @@
               <item name="04-WGAN-GP" type="b2602c69:ProjectViewProjectNode" />
               <item name="04-WGAN-GP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="04-WGAN-GP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04-WGAN-GP" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,8 +109,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,17 +142,18 @@
       <updated>1563543969065</updated>
       <workItem from="1563543970228" duration="1082000" />
       <workItem from="1563546577262" duration="258000" />
+      <workItem from="1563593901421" duration="5230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1340000" />
+    <option name="totallyTimeSpent" value="6570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="46" width="1280" height="1352" extended-state="0" />
+    <frame x="1069" y="23" width="1280" height="1352" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -126,7 +167,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32936507" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936507" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -140,10 +181,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/torch/optim/adam.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WGAN-GP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="223">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
